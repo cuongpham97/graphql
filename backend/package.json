@@ -1,0 +1,39 @@
+{
+  "name": "tastes",
+  "version": "1.0.0",
+  "description": "tastes",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp build && nodemon ./dist/index.js"
+  },
+  "keywords": [
+    "tastes"
+  ],
+  "author": "cuongpham97",
+  "license": "ISC",
+  "bin": {
+    "gulp": "./bin/gulp.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.14.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-express": "^2.0.2",
+    "graphql-tool": "^1.0.0",
+    "graphql-tools": "^6.0.8",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.155",
+    "gulp": "^4.0.2",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
